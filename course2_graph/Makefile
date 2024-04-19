@@ -1,4 +1,6 @@
 all:
+	g++ -g  scc.cpp  -std=c++11 -o escc
+	g++ -g  kosaraju.cpp  -std=c++11 -o ekosa
 	g++ -g  topologicalsort.cpp  -std=c++11 -o etoposort
 	g++ -g  dfs.cpp  -std=c++11 -o edfs
 	g++ -g  ucc.cpp  -std=c++11 -o eucc

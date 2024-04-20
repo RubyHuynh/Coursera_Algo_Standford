@@ -1,4 +1,5 @@
 all:
+	g++ -g  dijkstra.cpp  -std=c++11 -o edijkstra
 	g++ -g  scc.cpp  -std=c++11 -o escc
 	g++ -g  kosaraju.cpp  -std=c++11 -o ekosa
 	g++ -g  topologicalsort.cpp  -std=c++11 -o etoposort

@@ -1,4 +1,5 @@
 all:
+	g++ -g  heap.cpp  -std=c++11 -o eheap
 	g++ -g  dijkstra.cpp  -std=c++11 -o edijkstra
 	g++ -g  scc.cpp  -std=c++11 -o escc
 	g++ -g  kosaraju.cpp  -std=c++11 -o ekosa
